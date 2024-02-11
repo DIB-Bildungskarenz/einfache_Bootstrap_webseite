@@ -1,0 +1,21 @@
+/* Basisstile */
+.paragraph {
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+/* Media Query für große Bildschirme (mindestens 1200px Breite) */
+@media (min-width: 1200px) {
+    .paragraph.large {
+        width: 80%;
+        height: 150px;
+    }
+}
+
+/* Media Query für mittelgroße Bildschirme (992px - 1199px Breite) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .paragraph.medium {
+        width: 50%;
+        height: 100px;
+    }
+}
